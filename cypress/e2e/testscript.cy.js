@@ -20,7 +20,7 @@ it('Search for TV', ()=>
     cy.wait(15000)
 })
 
-it('Add TV to cart and proceed to checkout page with authenticated user', ()=>
+it('Add TV to cart and proceed to checkout page with an authenticated user', ()=>
 {
     cy.get('#buybox-see-all-buying-choices').click()
     cy.get('#a-autoid-2-offer-1').click()
